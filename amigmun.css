@@ -135,19 +135,19 @@ animation-area {
   }
 }
 
-.secretariats h1 {
+.secretariat h1 {
   margin-top: 5rem;
   margin-bottom: 0;
   /* margin-left: 5rem; */
 }
-.secretariats .row {
+.secretariat .row {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.secretariats h4 {
+.secretariat h4 {
   margin-bottom: 0px;
 }
-.secretariats p {
+.secretariat p {
   margin-top: 0px;
 }
 
@@ -281,4 +281,7 @@ img {
 
 .center {
   text-align: center;
+}
+.mb-0 {
+  margin-bottom: 0px;
 }
