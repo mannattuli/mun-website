@@ -171,6 +171,9 @@ animation-area {
 .committees .row .card:hover {
   border: 2px solid #111;
 }
+.committees .row .card #matrix {
+  margin-bottom: 0;
+}
 @media (max-width: 768px) {
   .intro h1 {
     font-size: 50px;
