@@ -1,0 +1,97 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: "Roboto", sans-serif;
+        overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0AC5A8;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Navbar */
+  .navbar-right{
+      margin-left: 0px;
+      margin-right: auto;
+      float:right;
+  }
+  nav{
+      z-index: 99;
+      border-bottom-left-radius: 10px;
+      background-color: white;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0 0 3px 3px rgba(0, 0, 0,0.4);
+  }
+  nav a {
+    color: #0AC5A8 !important;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* Landing Div */
+.head{
+    font-family: "Antonio", sans-serif;
+}
+
+
+.win-img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.win-img-img{    
+    height: auto;
+    vertical-align: middle;
+    width:75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ach-head{
+    padding-top: 12.5em;
+    font-size: 1.2em;
+}
+
+.ach{
+ margin-left: 2em;
+}
+
+.ach-text{
+    font-family: "Merriweather", serif;
+    font-size: 1.15em;
+}
+
+
+/* Gallery */
+
+.gallery{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+.hr {
+    border-radius: 20px;
+    color: #0AC5A8;
+    width: 35%;
+    height: 1em;
+}
